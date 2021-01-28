@@ -1,0 +1,78 @@
+/*Resetando o documento*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background: #040404
+}
+
+/* Ajustando ao centro*/
+html{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-bottom: 15px;
+    width:15%;
+    border-radius: 50%;
+    border: 4px outset rgb(43, 43, 43);
+}
+
+header p{
+    color: #808080;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    opacity: .7;
+    border-radius: 8px;
+    transition: ease-in .2s;
+}
+
+.button:hover{
+    opacity: 1;
+    transition: ease-in .2s;
+}
